@@ -2,12 +2,12 @@
     font-family: Poppins;
 }
 
-.hero {
+.nav {
     background-color: #1D0033;
 }
 
-#logo {
-    float: left;
+.hero {
+    background-color: #1D0033;
 }
 
 .nav-link {
@@ -48,4 +48,15 @@ footer {
 .testimonials {
     display: inline-flex;
     justify-content: space-between;
+}
+
+.testimonials-title {
+    background-color: #1D0033;
+    color: #F9C7DD;
+    height: 70px;
+}
+
+.center {
+    text-align: center;
+    font-size: 19px;
 }
