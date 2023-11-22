@@ -2,24 +2,37 @@
     font-family: Poppins;
 }
 
+.hero {
+    background-color: #1D0033;
+}
+
 #logo {
     float: left;
 }
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: #F9C7DD;
 }
 
 .btn {
     background-color: #F9C7DD;
-    color: #7F3E98;
+    color: #1D0033;
     border: none;
+}
+
+.nav-link:hover {
+    color: #F9C7DD;
 }
 
 .btn-link {
     background-color: transparent;
     color: black;
+}
+
+.btn-primary:hover {
+    background-color: #1D0033;
+    color: #F9C7DD;
 }
 
 footer {
@@ -29,4 +42,10 @@ footer {
 .footeritem {
     color: black;
     justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.testimonials {
+    display: inline-flex;
+    justify-content: space-between;
 }
