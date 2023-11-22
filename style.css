@@ -12,6 +12,13 @@
     padding-bottom: 40px;
 }
 
+.card p-3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .nav-link {
     text-decoration: none;
     color: #F9C7DD;
@@ -54,10 +61,17 @@
 }
 
 .testimonials {
+    background-color: #DBDBDB;
     display: inline-flex;
     justify-content: space-between;
     height: 400px;
+    overflow: hidden;
 }
+
+.card p-3 {
+    justify-content: center;
+}
+
 
 .titles {
     background-color: #1D0033;
@@ -76,29 +90,52 @@
 }
 
 .features {
-    background-color: #DBDBDB;
+    
     justify-content: space-around;
     justify-content: center;
 }
 
 .FAQs {
-    background-color: #DBDBDB;
+    height: 300px;
 }
 
 .accordion {
-    background-color: white;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .card-body {
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .card-deck {
     justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .btn-link:hover {
     color: black;
 }
+
+.card {
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: auto;
+        grid-template-areas: 'myWork';
+    }
+  }
+ 
+
+
+
+
