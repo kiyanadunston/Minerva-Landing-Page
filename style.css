@@ -1,0 +1,32 @@
+* {
+    font-family: Poppins;
+}
+
+#logo {
+    float: left;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: #F9C7DD;
+    color: #7F3E98;
+    border: none;
+}
+
+.btn-link {
+    background-color: transparent;
+    color: black;
+}
+
+footer {
+    text-decoration: none;
+}
+
+.footeritem {
+    color: black;
+    justify-content: space-evenly;
+}
