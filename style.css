@@ -4,10 +4,12 @@
 
 .nav {
     background-color: #1D0033;
+    height: 70px;
 }
 
-.hero {
-    background-color: #1D0033;
+.card-body-1 {
+    background-color: #FFF3F8;
+    padding-bottom: 40px;
 }
 
 .nav-link {
@@ -50,7 +52,7 @@ footer {
     justify-content: space-between;
 }
 
-.testimonials-title {
+.titles {
     background-color: #1D0033;
     color: #F9C7DD;
     height: 70px;
@@ -60,3 +62,4 @@ footer {
     text-align: center;
     font-size: 19px;
 }
+
