@@ -19,7 +19,7 @@
 
 .btn {
     background-color: #F9C7DD;
-    color: #1D0033;
+    color: black;
     border: none;
 }
 
@@ -37,25 +37,33 @@
     color: #F9C7DD;
 }
 
-footer {
+.footer {
+    background-color: #1D0033;
     text-decoration: none;
 }
 
 .footeritem {
-    color: black;
+    color: #F9C7DD;
     justify-content: space-evenly;
     text-decoration: none;
+}
+
+.inline-block:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .testimonials {
     display: inline-flex;
     justify-content: space-between;
+    height: 400px;
 }
 
 .titles {
     background-color: #1D0033;
     color: #F9C7DD;
     height: 70px;
+    padding: 1rem;
 }
 
 .center {
@@ -63,3 +71,34 @@ footer {
     font-size: 19px;
 }
 
+.card-F {
+    background-color: #F9C7DD;
+}
+
+.features {
+    background-color: #DBDBDB;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.FAQs {
+    background-color: #DBDBDB;
+}
+
+.accordion {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-body {
+    justify-content: space-around
+}
+
+.card-deck {
+    justify-content: space-around;
+}
+
+.btn-link:hover {
+    color: black;
+}
