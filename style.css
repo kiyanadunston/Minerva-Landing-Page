@@ -1,5 +1,5 @@
 * {
-    font-family: Poppins;
+    font-family: "Poppins";
 }
 
 .nav {
@@ -13,6 +13,8 @@
 }
 
 .card p-3 {
+    display: none;
+    
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
@@ -22,6 +24,20 @@
 .nav-link {
     text-decoration: none;
     color: #F9C7DD;
+}
+
+.hero img {
+    float: left;
+    margin-left: 10%;
+}
+
+.card-title-1 {
+    padding-top: 10%;
+    margin-right: 10%;
+}
+
+.card-text-1 {
+    margin-right: 10%;
 }
 
 .btn {
@@ -61,6 +77,7 @@
 }
 
 .testimonials {
+    padding: 10%;
     background-color: #DBDBDB;
     display: inline-flex;
     justify-content: space-between;
@@ -68,7 +85,7 @@
     overflow: hidden;
 }
 
-.card p-3 {
+.card p-3 { 
     justify-content: center;
 }
 
@@ -90,6 +107,8 @@
 }
 
 .features {
+    padding-top: 10%;
+    background-color: #DBDBDB;
     justify-content: space-around;
     justify-content: center;
 }
@@ -101,7 +120,7 @@
 .accordion {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
@@ -121,8 +140,53 @@
     color: black;
 }
 
-.card {
+.card-body {
+    background-color: #F9C7DD;
     border: none;
+}
+
+.p-3 {
+    border: none;
+    background-color: #DBDBDB;
+}
+
+.card-body-3 {
+    background-color: transparent;
+}
+
+.download {
+    background-color: #DBDBDB;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.download img {
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+
+.card-title-2 {
+    float: right;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.download-buttons {
+    margin-top: 10%;
+}
+
+.btn-primary-1:hover {
+    background-color: #1D0033;
+    color: #F9C7DD;
+}
+
+.btn-primary-2:hover {
+    background-color: #1D0033;
+    color: #F9C7DD;
 }
 
 @media only screen and (max-width: 600px) {
