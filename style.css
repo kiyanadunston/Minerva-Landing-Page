@@ -67,10 +67,7 @@
 }
 
 .topQR {
-    float: right;
-    margin-top: 50%;
-    margin-left: 90%;
-    margin-right: 10%;
+    float: left;
 }
 
 .card-title-1 {
@@ -81,16 +78,35 @@
 
 .card-text-1 {
     margin-right: 10%;
+    width: 40%;
 }
 
+
 .btn-primary-1 {
+    display: flex;
+    float: right;
     background-color: #F9C7DD;
     color: black;
     border: none;
     float: right;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-top: 20%;
+    margin-right: 750px;
+    margin-left: 00px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.btn-primary-2 {
+    display: flex;
+    background-color: #F9C7DD;
+    color: black;
+    border: none;
+    float: right;
+    margin-right: 750px;
+    margin-left: 300px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    justify-content: center;
 }
 
 .nav-link:hover {
@@ -177,11 +193,18 @@
 }
 
 .card-body {
+    background-color: #F9C7DD;
+    border: none;
+    border-radius: 5%;
     justify-content: space-around;
     width: auto;
     height: auto;
 }
 
+.features .card-body {
+    border: none;
+    border-radius: 0;
+}
 .card-deck {
     display: flex;
     height: auto;
@@ -227,6 +250,7 @@
     padding-top: 10%;
     padding-bottom: 10%;
     padding-right: 10%;
+    max-width: 500px;
 }
 
 .downloadButton {
@@ -274,7 +298,6 @@
         flex-direction: column;
         width: 100%;
         grid-template-columns: auto;
-        grid-template-areas: 'myWork';
     }
   }
  
