@@ -89,6 +89,10 @@ body {
     
 }
 
+.hero {
+    overflow: hidden;
+}
+
 .hero img {
     float: left;
     margin-left: 5%;
@@ -134,7 +138,7 @@ body {
     display: flex;
     float: right;
     background-color: #F9C7DD;
-    color: black;
+    color: #1D0033;
     border: none;
     float: right;
     margin-right: 750px;
@@ -153,7 +157,7 @@ body {
     font-weight: 200;
     display: flex;
     background-color: #F9C7DD;
-    color: black;
+    color: #1D0033;
     border: none;
     float: right;
     margin-right: 750px;
@@ -203,7 +207,7 @@ body {
 
 .testimonials {
     padding: 10%;
-    background-color: #DBDBDB;
+    
     display: inline-flex;
     justify-content: space-between;
     height: auto;
@@ -232,7 +236,7 @@ body {
     height: auto;
     width: auto;
     padding-top: 10%;
-    background-color: #DBDBDB;
+    
     justify-content: space-around;
     justify-content: center;
 }
@@ -251,7 +255,7 @@ body {
 .card-body {
     background-color: #F9C7DD;
     border: none;
-    border-radius: 5%;
+    border-radius: 8%;
     justify-content: space-around;
     width: auto;
     height: auto;
@@ -290,7 +294,7 @@ body {
 
 .p-3 {
     border: none;
-    background-color: #DBDBDB;
+    
 }
 
 .p4 {
@@ -302,12 +306,12 @@ body {
 }
 
 .text-center-2 {
-    background-color: #DBDBDB;
+    
 
 }
 
 .download-minerva {
-    background-color: #DBDBDB;
+    
     padding: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
