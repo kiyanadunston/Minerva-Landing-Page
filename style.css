@@ -9,6 +9,11 @@ body {
 .nav {
     background-color: #1D0033;
     height: 120px;
+    align-self: flex-start;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .floatLeft {
@@ -122,6 +127,10 @@ body {
 
 .btn-primary-1 {
     width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 200;
     display: flex;
     float: right;
     background-color: #F9C7DD;
@@ -133,10 +142,15 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .btn-primary-2 {
     width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 200;
     display: flex;
     background-color: #F9C7DD;
     color: black;
@@ -147,6 +161,7 @@ body {
     margin-top: 1px;
     margin-bottom: 1px;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .nav-link:hover {
