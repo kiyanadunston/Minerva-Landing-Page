@@ -2,6 +2,10 @@
     font-family: "Poppins";
 }
 
+body {
+    margin: 0;
+}
+
 .nav {
     background-color: #1D0033;
     height: 120px;
@@ -62,22 +66,22 @@
 .card-text {
     text-align: center;
     width: 250px;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-top: 10px;
 }
 
 .card-title-1 {
     margin-top: 1px;
     font-weight: bold;
-    margin-left: 30%;
-    margin-right: 70%;
+    margin-left: 50%;
+    
     text-align: left;
 }
 
 .card-text-1 {
     text-align: left;
-    margin-left: 30%;
-    margin-right: 5%;
+    margin-left: 785px;
+    
 }
 
 .hero img {
@@ -95,7 +99,7 @@
 
 .card-title-1 {
     padding-top: 10%;
-    margin-right: 10%;
+    
     width: 70%;
 }
 
@@ -192,8 +196,8 @@
     overflow: hidden;
 }
 
-
 .titles {
+    font-weight: bold;
     background-color: #1D0033;
     color: #F9C7DD;
     height: 100px;
@@ -226,7 +230,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
 }
 
 .card-body {
@@ -249,7 +253,7 @@
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+   
     margin-bottom: 10%;
 }
 
