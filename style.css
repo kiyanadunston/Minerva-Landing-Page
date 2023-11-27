@@ -285,12 +285,6 @@ body {
     border: none;
 }
 
-.downloadButton {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    grid-column: 2;
-}
 
 .p-3 {
     border: none;
@@ -305,38 +299,8 @@ body {
     background-color: transparent;
 }
 
-.download {
-    display: flex;
-    justify-content: center;
-}
-
 .card-text-center-2 {
     background-color: none;
-}
-
-.download-minerva {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.download img {
-    float: left;
-    padding-left: 10%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-right: 10%;
-    max-width: 100%;
-}
-
-.downloadButton {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    justify-content: center;
 }
 
 .card-title-2 {
@@ -357,14 +321,6 @@ body {
     align-content: space-evenly;
 }
 
-.downloadButton {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
-}
-
 .btn-primary-1:hover {
     background-color: #1D0033;
     color: #F9C7DD;
@@ -383,6 +339,41 @@ body {
 .btn-primary-22:hover {
     background-color: #1D0033;
     color: #F9C7DD;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+.download-minerva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100vh;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.download img {
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    max-width: 100%;
+}
+
+.downloadButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    grid-column: 2;
 }
 
 .btn-primary-11 {
@@ -427,18 +418,26 @@ body {
 }
 
 .CTA-1 {
+    display: flex;
     font-weight: bold;
-    margin-left: 870px;
+    float: right;
+    margin-right: 770px;
+    margin-left: 300px;
+    margin-top: 20px;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 .bottomQR {
+    float: left;
+    display: flex;
     margin-top: 20px;
+    margin-left: 400px;
 }
 
 
 @media only screen and (max-width: 600px) {
-    .flexContainer {
+    .nav, .hero, .titles, .testimonials, .features, .FAQs, .download, .footer {
         flex-direction: column;
         width: 100%;
         grid-template-columns: auto;
