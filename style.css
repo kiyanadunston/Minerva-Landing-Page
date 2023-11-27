@@ -435,6 +435,21 @@ body {
     margin-left: 400px;
 }
 
+.contact {
+    font-weight: bold;
+    color: #F9C7DD;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-left: 600px;
+}
+
+.reserved-rights {
+    color: #FFF3F8;
+    text-align: center;
+    font-weight: 200;
+    font-size: 13px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .nav, .hero, .titles, .testimonials, .features, .FAQs, .download, .footer {
