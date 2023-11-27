@@ -438,9 +438,9 @@ body {
 .contact {
     font-weight: bold;
     color: #F9C7DD;
-    justify-content: space-evenly;
     text-decoration: none;
-    margin-left: 600px;
+    margin-left: 500px;
+    margin-right: 5%;
 }
 
 .reserved-rights {
@@ -448,6 +448,10 @@ body {
     text-align: center;
     font-weight: 200;
     font-size: 13px;
+}
+
+.footer-social {
+    margin-right: 1%;
 }
 
 
