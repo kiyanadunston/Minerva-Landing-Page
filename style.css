@@ -452,7 +452,7 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    .nav, .hero, .titles, .testimonials, .features, .FAQs, .download, .footer {
+    .nav, .nav justify-content-end, .nav justify-content-left-end, .hero, .card text-center, .card-body-1, .hero img, .card-title-1, card-text-1, .topQR, .bottomQR, .CTA, .CTA-1, .btn btn-primary-1, .btn btn-primary-2, .btn btn-primary-11, .btn btn-primary-22, .titles, .testimonials, .features, .card-deck, .FAQs, .download, .footer {
         flex-direction: column;
         width: 100%;
         grid-template-columns: auto;
