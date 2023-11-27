@@ -31,6 +31,7 @@
 }
 
 .nav-link {
+    padding-top: 20px;
     text-decoration: none;
     color: #F9C7DD;
 }
@@ -68,6 +69,7 @@
 
 .topQR {
     float: left;
+    margin-left: 70%;
 }
 
 .card-title-1 {
@@ -81,6 +83,17 @@
     width: 40%;
 }
 
+.features-one {
+    margin-left: 80px;
+}
+
+.features-two {
+    margin-left: 80px;
+}
+
+.features-three {
+    margin-left: 80px;
+}
 
 .btn-primary-1 {
     display: flex;
@@ -225,6 +238,12 @@
     border: none;
 }
 
+.downloadButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-column: 2;
+}
 
 .p-3 {
     border: none;
@@ -244,6 +263,17 @@
 
 }
 
+.download-minerva {
+    background-color: #DBDBDB;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100vh;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
 .download img {
     float: left;
     padding-left: 10%;
@@ -254,8 +284,10 @@
 }
 
 .downloadButton {
-    float: right;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-column: 2;
 }
 
 .card-title-2 {
