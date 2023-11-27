@@ -4,11 +4,23 @@
 
 .nav {
     background-color: #1D0033;
-    height: 70px;
+    height: 120px;
 }
 
 .floatLeft {
-    margin-left: 10%;
+    padding-top: 4%;
+    margin-left: 2%;
+}
+
+.CTA {
+    display: flex;
+    font-weight: bold;
+    float: right;
+    margin-right: 770px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .card {
@@ -31,7 +43,8 @@
 }
 
 .nav-link {
-    padding-top: 20px;
+    font-weight: bold;
+    padding-top: 50px;
     text-decoration: none;
     color: #F9C7DD;
 }
@@ -42,13 +55,20 @@
 
 .card-title {
     text-align: center;
+    margin-bottom: 1px;
+    font-weight: bold;
 }
 
 .card-text {
     text-align: center;
+    width: 250px;
+    margin-left: 80px;
+    margin-top: 10px;
 }
 
 .card-title-1 {
+    margin-top: 1px;
+    font-weight: bold;
     margin-left: 30%;
     margin-right: 70%;
     text-align: left;
@@ -57,14 +77,15 @@
 .card-text-1 {
     text-align: left;
     margin-left: 30%;
-    margin-right: 70%;
+    margin-right: 5%;
 }
 
 .hero img {
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 4%;
-    margin-right: 4%;
+   
+    padding-right: 5%;
 }
 
 .topQR {
@@ -84,18 +105,19 @@
 }
 
 .features-one {
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 .features-two {
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 .features-three {
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 .btn-primary-1 {
+    width: 200px;
     display: flex;
     float: right;
     background-color: #F9C7DD;
@@ -103,13 +125,14 @@
     border: none;
     float: right;
     margin-right: 750px;
-    margin-left: 00px;
+    margin-left: 300px;
     margin-top: 20px;
     margin-bottom: 10px;
     justify-content: center;
 }
 
 .btn-primary-2 {
+    width: 200px;
     display: flex;
     background-color: #F9C7DD;
     color: black;
@@ -147,6 +170,7 @@
 }
 
 .footeritem {
+    font-weight: bold;
     color: #F9C7DD;
     justify-content: space-evenly;
     text-decoration: none;
@@ -172,8 +196,8 @@
 .titles {
     background-color: #1D0033;
     color: #F9C7DD;
-    height: 70px;
-    padding: 1rem;
+    height: 100px;
+    padding: 2rem;
 }
 
 .center {
