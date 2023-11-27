@@ -185,9 +185,9 @@ body {
 .footer {
     background-color: #1D0033;
     text-decoration: none;
-    height: 80px;
+    height: 120px;
     width: 100%;
-    padding-top: 3%;
+    padding-top: 2%;
     margin-right: auto;
     margin-top: auto;
 }
@@ -303,9 +303,6 @@ body {
 
 .card-body-3 {
     background-color: transparent;
-}
-
-.text-center-2 {
 }
 
 .download-minerva {
@@ -438,6 +435,7 @@ body {
     margin-top: 90px;
     margin-left: 400px;
 }
+
 
 @media only screen and (max-width: 600px) {
     .flexContainer {
