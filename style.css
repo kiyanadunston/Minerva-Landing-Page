@@ -443,6 +443,11 @@ body {
     margin-right: 5%;
 }
 
+.contact:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .reserved-rights {
     color: #FFF3F8;
     text-align: center;
