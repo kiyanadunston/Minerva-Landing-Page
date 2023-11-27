@@ -131,10 +131,10 @@ body {
 
 .btn-primary-1 {
     width: 200px;
-    height: 40px;
-    font-size: 20px;
+    height: 35px;
+    
     font-family: "Poppins", "sans-serif";
-    font-weight: 200;
+    font-weight: 300;
     display: flex;
     float: right;
     background-color: #F9C7DD;
@@ -151,8 +151,8 @@ body {
 
 .btn-primary-2 {
     width: 200px;
-    height: 40px;
-    font-size: 20px;
+    height: 35px;
+    
     font-family: "Poppins", "sans-serif";
     font-weight: 200;
     display: flex;
@@ -306,8 +306,6 @@ body {
 }
 
 .text-center-2 {
-    
-
 }
 
 .download-minerva {
@@ -370,6 +368,75 @@ body {
 .btn-primary-2:hover {
     background-color: #1D0033;
     color: #F9C7DD;
+}
+
+.btn-primary-11:hover {
+    background-color: #1D0033;
+    color: #F9C7DD;
+}
+
+.btn-primary-22:hover {
+    background-color: #1D0033;
+    color: #F9C7DD;
+}
+
+.btn-primary-11 {
+    width: 232px;
+    height: 43px;
+    padding: 10px;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 200;
+    display: flex;
+    float: right;
+    background-color: #F9C7DD;
+    color: #1D0033;
+    border: none;
+    float: right;
+    
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn-primary-22 {
+    width: 232px;
+    height: 43px;
+    padding: 10px;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 200;
+    display: flex;
+    background-color: #F9C7DD;
+    color: #1D0033;
+    border: none;
+    float: right;
+   
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.CTA-1 {
+    display: flex;
+    font-weight: bold;
+    float: right;
+    margin-right: 770px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.bottomQR {
+    float: left;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 400px;
 }
 
 @media only screen and (max-width: 600px) {
