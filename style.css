@@ -281,7 +281,7 @@
  
  
  .card-F {
-    background-color: #F9C7DD;
+     border: 1px solid #F9C7DD;
  }
  
  
@@ -518,6 +518,7 @@
     text-decoration: none;
     margin-left: 500px;
     margin-right: 5%;
+    padding-right: 10px;
  }
  
  
@@ -538,6 +539,17 @@
  .footer-social {
     margin-right: 1%;
  }
+
+
+.inline-block {
+    display: flex;
+    flex-direction: row;
+} 
+
+
+#Social {
+    float:right;
+    }
  
  
  
